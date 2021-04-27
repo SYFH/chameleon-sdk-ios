@@ -14,7 +14,7 @@
 @implementation CMLRichTextComponent
 
 - (UIView *)loadView {
-    TTTAttributedLabel *label = [TTTAttributedLabel new];
+    TTTAttributedLabel *label = [[TTTAttributedLabel alloc] initWithFrame:CGRectZero];
     label.delegate = self;
     return label;
 }
