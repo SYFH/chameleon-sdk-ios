@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
     s.name             = 'FKDDChameleon'
     s.version          = '1.0.3.3'
     s.ios.deployment_target = '9.0'
+    s.static_framework = true
     
     s.summary          = '🦎 一套代码运行多端，一端所见即多端所见'
     s.description      = <<-DESC
